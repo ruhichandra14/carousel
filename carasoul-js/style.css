@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*::selection{
+    background-color: transparent !important;
+}
+
+header {
+    text-align: center;
+    background-color: #553399;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px;
+}
+
+#slideshow-container {
+    margin: 100px auto;
+}
+
+.inner-container{
+    display: inline-block;
+    width: 540px;
+    margin-left: 10%;
+}
+
+.slide-change-icon{
+	font-size: -webkit-xxx-large;
+    font-weight: 900;
+    font-family: monospace;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.prev{
+   visibility: hidden;
+}
+.next{
+    display: inline-block;
+}
+
+.mySlides {
+    display: inline-block;
+    width: 160px;
+    display: none;
+}
+
+/*just for prac- height is given*/
+.mySlides img{
+	height: 95px;
+}
+
